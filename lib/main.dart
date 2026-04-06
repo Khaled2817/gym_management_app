@@ -31,7 +31,7 @@ void main() async {
       fallbackLocale: const Locale('ar'),
       child: BlocProvider(
         create: (context) => getIt<ThemeCubit>(),
-        child: CheckInApp(appRouter: AppRouter()),
+        child: GymManagementApp(appRouter: AppRouter()),
       ),
     ),
   );
