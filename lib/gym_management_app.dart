@@ -13,7 +13,6 @@ import 'package:gym_management_app/feature/settings/logic/cubit/theme_states.dar
 class GymManagementApp extends StatelessWidget {
   final AppRouter appRouter;
   const GymManagementApp({super.key, required this.appRouter});
-
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
